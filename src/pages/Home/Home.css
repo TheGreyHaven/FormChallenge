@@ -1,0 +1,9 @@
+body {
+	font-family: 'Six Caps', sans-serif;
+	font-family: 'Lekton', sans-serif;
+}
+
+#root {
+	background-color: #737892;
+	height: 100%;
+}

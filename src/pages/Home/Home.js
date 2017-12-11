@@ -4,26 +4,31 @@ import React, { Component } from "react";
 import Projects from "../../components/Projects";
 import "./Home.css";
 
+
 class Home extends Component {
   constructor(props) {
+    super(props);
 
     this.state = { isBlue: true };
 
-    this.handleClick = this.handleClick.bind(this)
+    //this.handleClick = this.handleClick.bind(this)
   }
 
-  handleClick() {
-    this.setState(prevState => ({
-    isBlue: !prevState.isBlue
-    }));
-  }
+  // handleClick() {
+  //   this.setState(prevState => ({
+  //   isBlue: !prevState.isBlue
+  //   }));
+  // }
 
-  render() {
+  render(){
     return (
       <div>
-        <div className='page-wrapper'> <Projects color={this.state.isBlue} /> </div>
+          <Projects />
       </div>
-    );
+    )
+
   }
 }
 export default Home;
+
+//<Projects color={this.state.isBlue} />

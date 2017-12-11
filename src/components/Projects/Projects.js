@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import "./Projects.css";
+import "./projects.css";
 
 class Projects extends Component {
 
 	render() {
-    	return {this.props.color};
+    	return ("hi");
   	}
 
 }

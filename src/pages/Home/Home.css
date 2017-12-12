@@ -7,3 +7,8 @@ body {
 	background-color: #737892;
 	height: 100%;
 }
+
+.container-fluid {
+	height: 100%;
+	background-color: orange;
+}

@@ -14,17 +14,20 @@ class Home extends Component {
 
 
   handleClick() {
-    this.setState(prevState => ({
-    isBlue: !prevState.isBlue
-    }));
+    this.setState({
+      isBlue: !this.state.isBlue
+    })
+
+    console.log('toggled');
   }
+
 
 
   render() {
     return (
-      <div className="container">
+      <div className="container-fluid">
         <Top />
-        <Projects />
+        <Projects color={this.handleClick} />
         <Illustrations />
       </div>
     );

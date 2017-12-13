@@ -1,6 +1,7 @@
 #topFourth {
 	background-color: #fff;
-	height: 30vw;
+	height: 400px;
+	position: relative;
 }
 
 #yellow {
@@ -9,4 +10,39 @@
 
 #blue {
 	background-color: #737892;
+}
+
+h1 {
+	font-family: 'Six Caps', sans-serif;
+}
+
+
+.circle {
+	position: absolute;
+	left: 2%;
+	top: 5%;
+	width: 25px;
+	height: 25px;
+	background: red;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+}
+
+#dotDiv {
+	height: 180px;
+	border-bottom: 2px solid #000;
+}
+
+.LogoCircle {
+	position: absolute;
+	left: 10%;
+	top: 10%;
+	width: 200px;
+	height: 200px;
+	background: #fff;
+	-moz-border-radius: 1000px;
+	-webkit-border-radius: 1000px;
+	border-radius: 1000px;
+	border: 2px solid #000;
 }

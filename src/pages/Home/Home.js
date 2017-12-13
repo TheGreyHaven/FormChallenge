@@ -12,28 +12,42 @@ class Home extends Component {
 
   state = { isBlue: true };
 
+  btnColor = {
+    color: "blue"
+  };
 
-  handleClick() {
+  btnColor2 = {
+    color: "yellow"
+  };
+
+
+  handleClick = () => {
+    console.log("toggled");
     this.setState({
-      isBlue: !this.state.isBlue
-    })
+    isBlue: !this.state.isBlue
+    });
+  };
 
-    console.log('toggled');
-  }
-
+  colorChecker = () => {
+    if (this.state.isBlue === true) {
+      return this.btnColor.color;
+    } else {
+      return this.btnColor2.color;
+    }
+  };
 
 
   render() {
     return (
       <div className="container-fluid">
-        <Top />
-        <Projects color={this.handleClick} />
+        <Top onClick={this.handleClick} dotColor={this.colorChecker()} />
+        <Projects />
         <Illustrations />
       </div>
     );
   }
 }
 
+
 export default Home;
 
-//<Projects color={this.state.isBlue} />

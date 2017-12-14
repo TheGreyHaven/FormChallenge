@@ -4,18 +4,30 @@
 	position: relative;
 }
 
+h1 {
+	font-family: 'Six Caps', sans-serif;
+}
+
 #yellow {
 	background-color: #dce897;
+}
+
+.yellow{
+	color: #737892;
 }
 
 #blue {
 	background-color: #737892;
 }
 
-h1 {
-	font-family: 'Six Caps', sans-serif;
+.blue{
+	color: #dce897;
 }
 
+img {
+	height: 200px;
+	width: 200px;
+}
 
 .circle {
 	position: absolute;
@@ -46,3 +58,6 @@ h1 {
 	border-radius: 1000px;
 	border: 2px solid #000;
 }
+
+
+

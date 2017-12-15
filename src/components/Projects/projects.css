@@ -1,4 +1,11 @@
 #projectsDiv {
 	height: 400px;
+}
+
+.backgroundblue {
+	background-color: #dce897;
+}
+
+.backgroundyellow {
 	background-color: #737892;
 }

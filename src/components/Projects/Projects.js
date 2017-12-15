@@ -1,15 +1,14 @@
 import React, { Component } from "react";
 import "./projects.css";
 
-class Projects extends Component {
+const Projects = props => (
 
-	render() {
-    	return(
-    		<div id="projectsDiv">There</div>
-    	);
-  	}
+    <div id="projectsDiv" className={ "background" + props.dotColor }>There</div>
 
-}
+);
+
+
+
 
 export default Projects;
 	// figure out how to change the state of this depending on the prop that is being passed in

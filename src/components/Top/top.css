@@ -1,11 +1,23 @@
 #topFourth {
 	background-color: #fff;
-	height: 400px;
+	height: 290px;
 	position: relative;
 }
 
-h1 {
+h1#myName {
+	position: absolute;
+	right: 10%;
+	top: 39%;
+	font-size: 100px;
 	font-family: 'Six Caps', sans-serif;
+}
+
+h2#jobTitle{
+	position: absolute;
+	right: 10%;
+	top: 104%;
+	font-size: 19.5px;
+	font-family: 'Lekton', sans-serif;
 }
 
 #yellow {
@@ -42,6 +54,7 @@ img {
 }
 
 #dotDiv {
+	position: relative;
 	height: 180px;
 	border-bottom: 2px solid #000;
 }

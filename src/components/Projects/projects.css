@@ -1,11 +1,42 @@
-#projectsDiv {
-	height: 400px;
+.projectsDiv {
+	position: relative;
+	padding-bottom: 5%;
 }
 
-.backgroundblue {
+.projectsDiv#projectsblue {
 	background-color: #dce897;
 }
 
-.backgroundyellow {
+.projectsDiv#projectsyellow {
 	background-color: #737892;
 }
+
+
+div#projectsTitle {
+	font-family: 'Six Caps', sans-serif;
+	color: #fff;
+	font-size: 35px;
+	text-decoration-line: underline;
+
+}
+
+.circleOuterDiv {
+	font-family: 'Lekton', sans-serif;
+	color: #fff;
+	padding-top: 5%;
+}
+
+.projectCircle {
+	width: 200px;
+	height: 200px;
+	-moz-border-radius: 1000px;
+	-webkit-border-radius: 1000px;
+	border-radius: 1000px;
+	border: 2px solid #000;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+
+
+

@@ -1,5 +1,46 @@
-#illustrationsDiv {
-	height: 30vw;
-	background-color: #dce897;
-
+.illustrationsDiv {
+	position: relative;
+	padding-bottom: 5%;
+	background-color: #fff;
 }
+
+#illustrationsTitle {
+	font-family: 'Six Caps', sans-serif;
+	color: #000;
+	font-size: 35px;
+	text-decoration-line: underline;
+}
+
+
+.illustrationSquare {
+	border: 2px solid #000; /* Gray border */
+    padding: 5px; /* Some padding */
+    width: 100px; /* Set a small width */
+    height: 100px;
+    margin-top: 2%;
+}
+
+#illustrationsRow {
+	padding-top: 3%;
+}
+
+#scienceSideyellow{
+	border-right: 1px solid #737892;
+}
+
+#weddingSideyellow{
+	border-left: 1px solid #737892;
+}
+
+#scienceSideblue{
+	border-right: 1px solid #dce897;
+}
+
+#weddingSideblue{
+	border-left: 1px solid #dce897;
+}
+
+
+
+
+

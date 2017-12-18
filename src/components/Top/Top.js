@@ -6,7 +6,7 @@ import "./top.css";
 
 
 const Top = props => (
-  <div id="topFourth">
+  <div id="topFourth" className="container-fluid">
     <div id="dotDiv">
       <span className="circle" onClick={props.onClick} id={ props.dotColor }>
       </span>

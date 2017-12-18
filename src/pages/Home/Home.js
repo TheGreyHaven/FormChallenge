@@ -39,7 +39,7 @@ class Home extends Component {
 
   render() {
     return (
-      <div className="container">
+      <div className="container-fluid">
         <Top onClick={this.handleClick} dotColor={this.colorChecker()} />
         <Projects dotColor={this.colorChecker()} />
         <Illustrations dotColor={this.colorChecker()} />

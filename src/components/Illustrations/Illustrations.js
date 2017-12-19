@@ -1,5 +1,14 @@
 import React, { Component } from "react";
 import "./illustrations.css";
+import blueEarth from '../../images/ill-BlueEarthBall2.png';
+import doubleSun from '../../images/ill-DoubleSun.png';
+import exoUpClose from '../../images/ill-ExoUpClose.png';
+import exoAndMoon from '../../images/ill-GasGient&Moon.png';
+import gTypeStar from '../../images/ill-GTypeStar.png';
+import viewFromMoon from '../../images/ill-Star&GasGientFromMoon.png';
+import transitingExo from '../../images/ill-TransitingExoStar.png';
+import poster from '../../images/ill-Poster.png';
+import planetCores from '../../images/ill-planetCores.png';
 
 const Illustrations = props => (
 
@@ -10,42 +19,33 @@ const Illustrations = props => (
 		    	<div className="container">
 		    		<div align="center" className="row">
 		    			<div align="center" className="col-md-6 col-lg-4">
-			    			<div id="square1" className="illustrationSquare"></div>
+		    				<img className="scienceImg" src={blueEarth}></img>
 			    		</div>
 			    		<div align="center" className="col-md-6 col-lg-4">
-			    			<div id="square2" className="illustrationSquare"></div>
+			    			<img className="scienceImg" src={doubleSun}></img>
 			    		</div>
 			    		<div align="center" className="col-md-6 col-lg-4">
-			    			<div id="square3" className="illustrationSquare"></div>
+			    			<img className="scienceImg" src={exoUpClose}></img>
 			    		</div>
 			    		<div align="center" className="col-md-6 col-lg-4">
-			    			<div id="square4" className="illustrationSquare"></div>
+			    			<img className="scienceImg" src={gTypeStar}></img>
 			    		</div>
 			    		<div align="center" className="col-md-6 col-lg-4">
-			    			<div id="square5" className="illustrationSquare"></div>
+			    			<img className="scienceImg" src={viewFromMoon}></img>
 			    		</div>
 			    		<div align="center" className="col-md-6 col-lg-4">
-			    			<div id="square6" className="illustrationSquare"></div>
+			    			<img className="scienceImg" src={exoAndMoon}></img>
 			    		</div>
 		    		</div>
 		    		<div align="center" className="row">
 		    			<div align="center" className="col-md-6 col-lg-4">
-			    			<div id="square7" className="illustrationSquare"></div>
+			    			<img className="scienceImg" src={transitingExo}></img>
 			    		</div>
 			    		<div align="center" className="col-md-6 col-lg-4">
-			    			<div id="square8" className="illustrationSquare"></div>
+			    			<img className="scienceImg" src={poster}></img>
 			    		</div>
 			    		<div align="center" className="col-md-6 col-lg-4">
-			    			<div id="square9" className="illustrationSquare"></div>
-			    		</div>
-			    		<div align="center" className="col-md-6 col-lg-4">
-			    			<div id="square10" className="illustrationSquare"></div>
-			    		</div>
-			    		<div align="center" className="col-md-6 col-lg-4">
-			    			<div id="square11" className="illustrationSquare"></div>
-			    		</div>
-			    		<div align="center" className="col-md-6 col-lg-4">
-			    			<div id="square12" className="illustrationSquare"></div>
+			    			<img className="scienceImg" src={planetCores}></img>
 			    		</div>
 		    		</div>
 		    	</div>

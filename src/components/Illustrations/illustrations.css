@@ -17,12 +17,9 @@
     padding: 5px; /* Some padding */
     width: 100px; /* Set a small width */
     height: 100px;
-    margin-top: 2%;
+    margin-top: 5%;
 }
 
-.illustrationSquare:hover {
-    box-shadow: 0 0 0px 1px #969e93;
-}
 
 #illustrationsRow {
 	padding-top: 3%;
@@ -42,6 +39,18 @@
 
 #weddingSideblue{
 	border-left: 1px solid #dce897;
+}
+
+.scienceImg {
+	border: 2px solid #000;
+    width: 100px;
+    height: 100px;
+    margin-top: 5%;
+    background-color: #000;
+}
+
+.scienceImg:hover {
+    box-shadow: 0 0 0px 1px #969e93;
 }
 
 /* xs 768 and under */

@@ -4,13 +4,16 @@ import React, { Component } from "react";
 import Projects from "../../components/Projects";
 import Top from "../../components/Top";
 import Illustrations from "../../components/Illustrations";
+import Contact from "../../components/Contact";
+import Modal from "../../components/Modal";
 import "./Home.css";
 
 
 
 class Home extends Component {
 
-  state = { isBlue: true };
+  state = { isBlue: true
+          };
 
   btnColor = {
     color: "blue"
@@ -37,12 +40,16 @@ class Home extends Component {
   };
 
 
+
+
+
   render() {
     return (
       <div className="container-fluid">
         <Top onClick={this.handleClick} dotColor={this.colorChecker()} />
-        <Projects dotColor={this.colorChecker()} />
+        <Projects onClick={this.toggleModal} dotColor={this.colorChecker()} />
         <Illustrations dotColor={this.colorChecker()} />
+        <Contact dotColor={this.colorChecker()}/>
       </div>
     );
   }

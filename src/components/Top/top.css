@@ -43,7 +43,6 @@ img {
 
 .circle {
 	position: absolute;
-	left: 2%;
 	top: 5%;
 	width: 25px;
 	height: 25px;
@@ -55,9 +54,14 @@ img {
 
 #dotDiv {
 	position: relative;
-	height: 180px;
+	height: 185px;
 	border-bottom: 2px solid #000;
 }
+
+.circle:hover {
+    box-shadow: 0 0 0 1px #969e93;
+}
+
 
 .LogoCircle {
 	position: absolute;
@@ -72,5 +76,79 @@ img {
 	border: 2px solid #000;
 }
 
+#mySmallName {
+	font-size: 84px;
+	font-family: 'Six Caps', sans-serif;
+}
+
+
+/* xs 768 and under */
+@media (max-width: 767px) {
+	#topFourth {
+	height: 365px;
+	position: relative;
+	}
+
+	h1#myName {
+		visibility: hidden;
+	}
+
+	h2#jobTitle{
+		visibility: hidden;
+	}
+
+	.LogoCircle {
+		visibility: hidden;
+	}
+
+	#dotDiv {
+	height: 318px;
+	border-bottom: 2px solid #000;
+	}
+
+}
+
+/* sm 768-991 */
+@media (min-width: 768px) and (max-width: 991px) {
+	#mySmallName {
+		visibility: hidden;
+	}
+	#jobSmallTitle {
+		visibility: hidden;
+	}
+	.LogoCircleSmall {
+		visibility: hidden;
+	}
+
+}
+
+
+/* md 992-1199 */
+@media (min-width: 992px) and (max-width: 1199px) {
+	#mySmallName {
+		visibility: hidden;
+	}
+	#jobSmallTitle {
+		visibility: hidden;
+	}
+	.LogoCircleSmall {
+		visibility: hidden;
+	}
+}
+
+
+/* lg 1200 and more */
+@media (min-width: 1200px) {
+	#mySmallName {
+		visibility: hidden;
+	}
+	#jobSmallTitle {
+		visibility: hidden;
+	}
+	.LogoCircleSmall {
+		visibility: hidden;
+	}
+
+}
 
 

@@ -20,6 +20,10 @@
     margin-top: 2%;
 }
 
+.illustrationSquare:hover {
+    box-shadow: 0 0 0px 1px #969e93;
+}
+
 #illustrationsRow {
 	padding-top: 3%;
 }
@@ -38,6 +42,22 @@
 
 #weddingSideblue{
 	border-left: 1px solid #dce897;
+}
+
+/* xs 768 and under */
+@media (max-width: 767px) {
+	#weddingSideblue{
+	border-left: 1px solid #fff;
+	}
+	#scienceSideblue{
+	border-right: 1px solid #fff;
+	}
+	#scienceSideyellow{
+	border-right: 1px solid #fff;
+	}
+	#weddingSideyellow{
+		border-left: 1px solid #fff;
+	}
 }
 
 

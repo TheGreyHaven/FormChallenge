@@ -5,7 +5,6 @@ import Projects from "../../components/Projects";
 import Top from "../../components/Top";
 import Illustrations from "../../components/Illustrations";
 import Contact from "../../components/Contact";
-import ModalClass from "../../components/Modal";
 import "./Home.css";
 
 
@@ -47,7 +46,6 @@ class Home extends Component {
     return (
       <div className="container-fluid">
         <Top onClick={this.handleClick} dotColor={this.colorChecker()} />
-        <ModalClass />
         <Projects onClick={this.onOpenModal} dotColor={this.colorChecker()} />
         <Illustrations dotColor={this.colorChecker()} />
         <Contact dotColor={this.colorChecker()}/>

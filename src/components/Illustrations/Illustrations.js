@@ -46,62 +46,62 @@ const Illustrations = props => (
     		<div id={"scienceSide" + props.dotColor} align="center" className="scienceSide col-md-6 col-sm-6 illustrationLeftRight">Scientific Illustrations / Sculptures
 		    	<div className="container">
 		    		<div align="center" className="row">
-		    			<div align="center" className="col-md-6 col-lg-4">
+		    			<div align="center" className="col-xs-6 col-lg-4">
 		    				<img className="scienceImg" src={blueEarth}></img>
 			    		</div>
-			    		<div align="center" className="col-md-6 col-lg-4">
+			    		<div align="center" className="col-xs-6 col-lg-4">
 			    			<img className="scienceImg" src={doubleSun}></img>
 			    		</div>
-			    		<div align="center" className="col-md-6 col-lg-4">
+			    		<div align="center" className="col-xs-6 col-lg-4">
 			    			<img className="scienceImg" src={exoUpClose}></img>
 			    		</div>
-			    		<div align="center" className="col-md-6 col-lg-4">
+			    		<div align="center" className="col-xs-6 col-lg-4">
 			    			<img className="scienceImg" src={gTypeStar}></img>
 			    		</div>
-			    		<div align="center" className="col-md-6 col-lg-4">
+			    		<div align="center" className="col-xs-6 col-lg-4">
 			    			<img className="scienceImg" src={viewFromMoon}></img>
 			    		</div>
-			    		<div align="center" className="col-md-6 col-lg-4">
+			    		<div align="center" className="col-xs-6 col-lg-4">
 			    			<img className="scienceImg" src={exoAndMoon}></img>
 			    		</div>
 		    		</div>
 		    		<div align="center" className="row">
-		    			<div align="center" className="col-md-6 col-lg-4">
+		    			<div align="center" className="col-xs-6 col-lg-4">
 			    			<img className="scienceImg" src={transitingExo}></img>
 			    		</div>
-			    		<div align="center" className="col-md-6 col-lg-4">
+			    		<div align="center" className="col-xs-6 col-lg-4">
 			    			<img className="scienceImg" src={poster}></img>
 			    		</div>
-			    		<div align="center" className="col-md-6 col-lg-4">
+			    		<div align="center" className="col-xs-6 col-lg-4">
 			    			<img className="scienceImg" src={planetCores}></img>
 			    		</div>
-			    		<div align="center" className="col-md-6 col-lg-4">
+			    		<div align="center" className="col-xs-6 col-lg-4">
 			    			<img className="scienceImg" src={hat1}></img>
 			    		</div>
-			    		<div align="center" className="col-md-6 col-lg-4">
+			    		<div align="center" className="col-xs-6 col-lg-4">
 			    			<img className="scienceImg" src={hat2}></img>
 			    		</div>
-			    		<div align="center" className="col-md-6 col-lg-4">
+			    		<div align="center" className="col-xs-6 col-lg-4">
 			    			<img className="scienceImg" src={hat3}></img>
 			    		</div>
 		    		</div>
 		    		<div align="center" className="row">
-		    			<div align="center" className="col-md-6 col-lg-4">
+		    			<div align="center" className="col-xs-6 col-lg-4">
 			    			<img className="scienceImg" src={bag}></img>
 			    		</div>
-			    		<div align="center" className="col-md-6 col-lg-4">
+			    		<div align="center" className="col-xs-6 col-lg-4">
 			    			<img className="scienceImg" src={boot}></img>
 			    		</div>
-			    		<div align="center" className="col-md-6 col-lg-4">
+			    		<div align="center" className="col-xs-6 col-lg-4">
 			    			<img className="scienceImg" src={skull1}></img>
 			    		</div>
-			    		<div align="center" className="col-md-6 col-lg-4">
+			    		<div align="center" className="col-xs-6 col-lg-4">
 			    			<img className="scienceImg" src={skull2}></img>
 			    		</div>
-			    		<div align="center" className="col-md-6 col-lg-4">
+			    		<div align="center" className="col-xs-6 col-lg-4">
 			    			<img className="scienceImg" src={figure1}></img>
 			    		</div>
-			    		<div align="center" className="col-md-6 col-lg-4">
+			    		<div align="center" className="col-xs-6 col-lg-4">
 			    			<img className="scienceImg" src={figure2}></img>
 			    		</div>
 		    		</div>
@@ -110,62 +110,62 @@ const Illustrations = props => (
 	    	<div id={"weddingSide" + props.dotColor} align="center" className="weddingSide col-md-6 col-sm-6 illustrationLeftRight">Wedding Invitations / Cards
 		    	<div className="container">
 		    		<div align="center" className="row">
-		    			<div align="center" className="col-md-6 col-lg-4">
+		    			<div align="center" className="col-xs-6 col-lg-4">
 			    			<img className="wedImg" src={wedBridge}></img>
 			    		</div>
-			    		<div align="center" className="col-md-6 col-lg-4">
+			    		<div align="center" className="col-xs-6 col-lg-4">
 			    			<img className="wedImg" src={wedShells}></img>
 			    		</div>
-			    		<div align="center" className="col-md-6 col-lg-4">
+			    		<div align="center" className="col-xs-6 col-lg-4">
 			    			<img className="wedImg" src={wedGarden}></img>
 			    		</div>
-			    		<div align="center" className="col-md-6 col-lg-4">
+			    		<div align="center" className="col-xs-6 col-lg-4">
 			    			<img className="wedImg" src={wedUnderSea}></img>
 			    		</div>
-			    		<div align="center" className="col-md-6 col-lg-4">
+			    		<div align="center" className="col-xs-6 col-lg-4">
 			    			<img className="wedImg" src={wedSeaMist}></img>
 			    		</div>
-			    		<div align="center" className="col-md-6 col-lg-4">
+			    		<div align="center" className="col-xs-6 col-lg-4">
 			    			<img className="wedImg" src={wedPostCard}></img>
 			    		</div>
 		    		</div>
 		    		<div align="center" className="row">
-		    			<div align="center" className="col-md-6 col-lg-4">
+		    			<div align="center" className="col-xs-6 col-lg-4">
 			    			<img className="wedImg" src={wedMemories}></img>
 			    		</div>
-			    		<div align="center" className="col-md-6 col-lg-4">
+			    		<div align="center" className="col-xs-6 col-lg-4">
 			    			<img className="wedImg" src={wedGatsby}></img>
 			    		</div>
-			    		<div align="center" className="col-md-6 col-lg-4">
+			    		<div align="center" className="col-xs-6 col-lg-4">
 			    			<img className="wedImg" src={wedWorldsFair}></img>
 			    		</div>
-			    		<div align="center" className="col-md-6 col-lg-4">
+			    		<div align="center" className="col-xs-6 col-lg-4">
 			    			<img className="wedImg" src={wedCrispedia}></img>
 			    		</div>
-			    		<div align="center" className="col-md-6 col-lg-4">
+			    		<div align="center" className="col-xs-6 col-lg-4">
 			    			<img className="wedImg" src={wedChinaPlate}></img>
 			    		</div>
-			    		<div align="center" className="col-md-6 col-lg-4">
+			    		<div align="center" className="col-xs-6 col-lg-4">
 			    			<img className="wedImg" src={wedBird}></img>
 			    		</div>
 		    		</div>
 		    		<div align="center" className="row">
-		    			<div align="center" className="col-md-6 col-lg-4">
+		    			<div align="center" className="col-xs-6 col-lg-4">
 			    			<img className="wedImg" src={wedBerries}></img>
 			    		</div>
-			    		<div align="center" className="col-md-6 col-lg-4">
+			    		<div align="center" className="col-xs-6 col-lg-4">
 			    			<img className="wedImg" src={wedPassport}></img>
 			    		</div>
-			    		<div align="center" className="col-md-6 col-lg-4">
+			    		<div align="center" className="col-xs-6 col-lg-4">
 			    			<img className="wedImg" src={wedPostcardTable}></img>
 			    		</div>
-			    		<div align="center" className="col-md-6 col-lg-4">
+			    		<div align="center" className="col-xs-6 col-lg-4">
 			    			<img className="wedImg" src={wedSteamShip}></img>
 			    		</div>
-			    		<div align="center" className="col-md-6 col-lg-4">
+			    		<div align="center" className="col-xs-6 col-lg-4">
 			    			<img className="wedImg" src={wedMovie}></img>
 			    		</div>
-			    		<div align="center" className="col-md-6 col-lg-4">
+			    		<div align="center" className="col-xs-6 col-lg-4">
 			    			<img className="wedImg" src={wedSTD}></img>
 			    		</div>
 		    		</div>

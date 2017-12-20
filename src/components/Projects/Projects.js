@@ -3,6 +3,7 @@ import "./projects.css";
 import mobingo from '../../images/mobingo350px.png';
 import planit from '../../images/planit350px.png';
 import womentor from '../../images/womentor350px.png';
+import Modal from '../Modal';
 
 
 
@@ -16,7 +17,7 @@ class Projects extends Component {
 		    	<div className="row">
 			    	<div align="center" className="col-md-4 circleOuterDiv">Mo'Bingo
 			    		<div id="pCircle1" onClick={this.props.onClick} align="center" className="projectCircle">
-			    			<img src={mobingo}></img>
+			    			<Modal />
 			    		</div>
 			    	</div>
 			    	<div align="center" className="col-md-4 circleOuterDiv">Plan-It

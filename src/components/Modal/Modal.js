@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import Modal from 'react-responsive-modal';
+import mobingo from '../../images/mobingo350px.png';
+
 
 class ModalClass extends React.Component {
   state = {
@@ -18,7 +20,7 @@ class ModalClass extends React.Component {
     const { open } = this.state;
     return (
       <div>
-        <button onClick={this.onOpenModal}>Open modal</button>
+        <img src={mobingo} onClick={this.onOpenModal}></img>
         <Modal open={open} onClose={this.onCloseModal} little>
           <h2>Simple centered modal</h2>
         </Modal>

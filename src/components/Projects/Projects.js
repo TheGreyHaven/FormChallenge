@@ -15,7 +15,7 @@ class Projects extends Component {
 		    	<div id="projectsTitle" align="center">Projects</div>
 		    	<div className="row">
 			    	<div align="center" className="col-md-4 circleOuterDiv">Mo'Bingo
-			    		<div id="pCircle1" align="center" className="projectCircle">
+			    		<div id="pCircle1" onClick={this.props.onClick} align="center" className="projectCircle">
 			    			<img src={mobingo}></img>
 			    		</div>
 			    	</div>

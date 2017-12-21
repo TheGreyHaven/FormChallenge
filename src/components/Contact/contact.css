@@ -32,14 +32,8 @@
     text-decoration: none;
 }
 
-a.contactLink:link {
+a:link, a:visited, a:active, a:hover  {
     text-decoration: none;
 }
 
-a.contactLink:visited {
-    text-decoration: none;
-}
 
-a.contactLink:active {
-    text-decoration: none;
-}

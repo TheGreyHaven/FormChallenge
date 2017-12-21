@@ -32,14 +32,14 @@
     text-decoration: none;
 }
 
-a:link {
+a.contactLink:link {
     text-decoration: none;
 }
 
-a:visited {
+a.contactLink:visited {
     text-decoration: none;
 }
 
-a:active {
+a.contactLink:active {
     text-decoration: none;
 }

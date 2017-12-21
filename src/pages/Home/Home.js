@@ -48,7 +48,7 @@ class Home extends Component {
         <Top onClick={this.handleClick} dotColor={this.colorChecker()} />
         <Projects onClick={this.onOpenModal} dotColor={this.colorChecker()} />
         <Illustrations dotColor={this.colorChecker()} />
-        <Contact dotColor={this.colorChecker()}/>
+        <Contact dotColor={this.colorChecker()} />
       </div>
     );
   }

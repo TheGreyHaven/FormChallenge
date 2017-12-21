@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./top.css";
-// import blue from '../../images/womanGlasses350pxblue.png';
-// import yellow from '../../images/womanGlasses350pxyellow.png';
+import bluePic from '../../images/womanGlasses350pxblue.png';
+import yellowPic from '../../images/womanGlasses350pxyellow.png';
 
 
 

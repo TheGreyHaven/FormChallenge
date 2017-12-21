@@ -18,7 +18,6 @@ import skull1 from '../../images/ill-sculpt-skull1.png';
 import skull2 from '../../images/ill-sculpt-skull2.png';
 import figure1 from '../../images/ill-sculpt-figure1.png';
 import figure2 from '../../images/ill-sculpt-figure2.png';
-
 import wedBridge from '../../images/ill-wed-bridge.png';
 import wedShells from '../../images/ill-wed-shells.png';
 import wedGarden from '../../images/ill-wed-garden.png';

@@ -1,9 +1,10 @@
 import React, { Component } from "react";
 import Modal from 'react-responsive-modal';
-import mobingo from '../../images/mobingo350px.png';
+import "./planitModal.css";
+import planit from '../../images/planit350px.png';;
 
 
-class ModalClass extends React.Component {
+class PlanitModal extends React.Component {
   state = {
     open: false,
   };
@@ -20,13 +21,13 @@ class ModalClass extends React.Component {
     const { open } = this.state;
     return (
       <div>
-        <img src={mobingo} onClick={this.onOpenModal}></img>
-        <Modal open={open} onClose={this.onCloseModal} little>
-          <h2>Simple centered modal</h2>
+        <img src={planit} onClick={this.onOpenModal}></img>
+        <Modal  open={open} onClose={this.onCloseModal} little>
+          <h2>Hi modal</h2>
         </Modal>
       </div>
     );
   }
 }
 
-export default ModalClass;
+export default PlanitModal;

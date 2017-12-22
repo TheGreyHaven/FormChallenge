@@ -27,6 +27,17 @@ const Top = props => (
         : '/static/media/womanGlasses350pxyellow.2798791c.png'}>
       </img>
     </span>
+    <div id="bio">
+    Me in a nutshell...I am a recent graduate of Hackbright Academy, where I learned full-stack development
+    in order to be prepared for a career as a software engineer.
+    Before this I worked for a number of years as a free-lance illustrator doing scientific illustration
+    and designing wedding invitations.
+    It was during this time that I discovered programing.
+    I used to do logic puzzles in my spare time and so when I realized that there was
+    a job out there that might combine my abilities I decided to start studying.
+    Creativity has been a huge asset in my journey of becoming a programmer and I hope to
+    utilize all of my abilities in a position as a full-stack developer. Please feel free to check out my site.
+    </div>
   </div>
 );
 

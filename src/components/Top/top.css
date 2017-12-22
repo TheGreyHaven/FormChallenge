@@ -1,7 +1,13 @@
 #topFourth {
 	background-color: #fff;
-	height: 290px;
+	/*height: 290px;*/
 	position: relative;
+}
+
+#bio {
+	margin-top: 5%;
+	padding: 5%;
+	text-align: justify;
 }
 
 h1#myName {
@@ -85,8 +91,12 @@ img {
 /* xs 768 and under */
 @media (max-width: 767px) {
 	#topFourth {
-	height: 365px;
+	/*height: 365px;*/
 	position: relative;
+	}
+
+	#bio {
+	margin-top: 6%;
 	}
 
 	h1#myName {

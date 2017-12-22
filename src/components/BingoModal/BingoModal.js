@@ -43,7 +43,7 @@ class BingoModal extends Component {
               <a href="http://mobingo.club/" align="center" className="modalLinks" target="_blank">MoBingo.club</a>
             </div>
             <div className="col-xs-12 col-sm-6 bingoLinkDiv" align="center">
-              <a href="https://github.com/TheGreyHaven/BingoWebApp" align="center" id="githubBingo" className="modalLinks" taget="_blank">GitHub Repository</a>
+              <a href="https://github.com/TheGreyHaven/BingoWebApp" align="center" id="githubBingo" className="modalLinks" target="_blank">GitHub Repository</a>
             </div>
           </div>
         </Modal>

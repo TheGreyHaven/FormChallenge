@@ -1,0 +1,48 @@
+iframe {
+	border: solid 2px #000;
+	margin-bottom: 1%;
+}
+
+.planitLinkDiv {
+	margin-top: 5px;
+}
+
+
+/*xxs*/
+@media (max-width: 424px){
+	iframe {
+		width: 300px;
+		height: 169px;
+	}
+}
+
+/*xs*/
+@media (min-width: 425px) and (max-width: 767px){
+	iframe {
+		width: 400px;
+		height: 225px;
+	}
+}
+/*sm*/
+@media (min-width: 768px) and (max-width: 991px){
+	iframe {
+		width: 640px;
+		height: 360px;
+	}
+}
+/*md*/
+@media (min-width: 992px) and (max-width: 1199px){
+	iframe {
+		width: 640px;
+		height: 360px;
+	}
+}
+/*lg*/
+@media (min-width: 1200px){
+	iframe {
+		width: 640px;
+		height: 360px;
+	}
+
+}
+

@@ -23,7 +23,18 @@ class PlanitModal extends React.Component {
       <div>
         <img src={planit} onClick={this.onOpenModal}></img>
         <Modal  open={open} onClose={this.onCloseModal} little>
-          <h2>Hi modal</h2>
+          <div className="container" id="planitModalContainer">
+            <div className="modalTitle" id="planitModalTitle">Plan-it</div>
+            <div className="projectDescription">
+            Plan-it was the culmination of all that I learned at Hackbright. Here is a video of me presenting my project. You watch because I can't...
+            </div>
+            <div id="planitVideo" align="center">
+            <iframe src="https://www.youtube.com/embed/IN9C9oIE8CY" responsive="true"></iframe>
+            </div>
+            <div className="planitLinkDiv" align="center">
+              <a href="https://github.com/TheGreyHaven/HB-project" align="center" id="github" className="modalLinks" target="_blank">GitHub Repository</a>
+            </div>
+          </div>
         </Modal>
       </div>
     );

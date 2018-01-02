@@ -41,9 +41,9 @@
     margin-bottom: 3%;
 }
 
-.scienceImg:hover, .wedImg:hover {
+/*.scienceImg:hover, .wedImg:hover {
     box-shadow: 0 0 0px 1px #969e93;
-}
+}*/
 
 .wedImg {
 	border: 2px solid #000;

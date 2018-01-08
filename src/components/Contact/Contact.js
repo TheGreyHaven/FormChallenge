@@ -7,7 +7,7 @@ const Contact = props => (
         <div id="contactTitle" align="center">Contact</div>
         <div className="row">
             <address align="center" className="col-sm-4">
-                <a href="mailto:haven.giguere.com">
+                <a href="mailto:haven.giguere@gmail.com">
                   <div id="email" className="contactInfo">Email</div>
                 </a>
             </address>

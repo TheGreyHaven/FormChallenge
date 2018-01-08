@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import 'react-responsive-modal/lib/react-responsive-modal.css';
 import Modal from 'react-responsive-modal';
 import "./bingoModal.css";
 import mobingo from '../../images/mobingo350px.png';
@@ -28,7 +29,7 @@ class BingoModal extends Component {
     return (
       <div>
         <img src={mobingo} onClick={this.onOpenModal}></img>
-        <Modal className="bingoModal" open={open} onClose={this.onCloseModal} little>
+        <Modal className="bingoModal" open={open} onClose={this.onCloseModal}>
           <div className="container" id="bingoModalContainer">
             <div className="modalTitle" id="bingoModalTitle">Mo'Bingo</div>
             <div className="projectDescription">

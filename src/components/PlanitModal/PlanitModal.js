@@ -22,7 +22,7 @@ class PlanitModal extends React.Component {
     return (
       <div>
         <img src={planit} onClick={this.onOpenModal}></img>
-        <Modal  open={open} onClose={this.onCloseModal} little>
+        <Modal  open={open} onClose={this.onCloseModal}>
           <div className="container" id="planitModalContainer">
             <div className="modalTitle" id="planitModalTitle">Plan-it</div>
             <div className="projectDescription">

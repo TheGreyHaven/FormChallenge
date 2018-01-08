@@ -22,7 +22,7 @@ class WomentorModal extends React.Component {
     return (
       <div>
         <img src={womentor} onClick={this.onOpenModal}></img>
-        <Modal  open={open} onClose={this.onCloseModal} little>
+        <Modal  open={open} onClose={this.onCloseModal}>
           <div className="container" id="planitModalContainer">
             <div className="modalTitle" id="womentorModalTitle">Womentor</div>
             <div className="projectDescription">

@@ -28,15 +28,21 @@ const Top = props => (
       </img>
     </span>
     <div id="bio">
-    Me in a nutshell...I am a recent graduate of Hackbright Academy, where I learned full-stack development
-    in order to be prepared for a career as a software engineer.
-    Before this I worked for a number of years as a free-lance illustrator doing scientific illustration
-    and designing wedding invitations.
-    It was during this time that I discovered programing.
-    I used to do logic puzzles in my spare time and so when I realized that there was
-    a job out there that might combine my abilities I decided to start studying.
-    Creativity has been a huge asset in my journey of becoming a programmer and I hope to
-    utilize all of my abilities in a position as a full-stack developer. Please feel free to check out my site.
+    I first discovered software development during my time as a free-lance illustrator
+    when I was running my own small business. I spent years running a wedding invitation
+    design and production shop while creating scientific illustrations on the side
+    (many of which have been published by the world’s largest news outlets such as ABC, BBC,
+     CBS, NBC, and USA Today).
+    <br></br><br></br>
+    I love to solve challenges of both the creative and logical form, and was elated to find
+    that software development is a combination of both. For the past few years I’ve been
+    building up my knowledge of software development through an independent study,
+    which mostly consisted of taking online courses and applying my newfound knowledge to side
+    projects. Recently, I decided to take the leap and enroll in Hackbright Academy to
+    accelerate my learnings in full-stack software development.
+    <br></br><br></br>
+    Creativity has been a huge asset in my journey of becoming a software engineer and I’m
+    eager to bring my unique perspective to help the right company build great products!
     </div>
   </div>
 );

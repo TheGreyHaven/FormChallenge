@@ -38,7 +38,7 @@ class WomentorModal extends React.Component {
             our README on GitHub.
             </div>
             <div align="center">
-              <img responsive="true" id="womentorImg" src={womentorImg}></img>
+              <a href="https://github.com/TheGreyHaven/WoMentor" target="_blank"><img responsive="true" id="womentorImg" src={womentorImg}></img></a>
             </div>
             <div className="womentorLinkDiv" align="center">
               <a href="https://github.com/TheGreyHaven/WoMentor" align="center" id="github" className="modalLinks" target="_blank">GitHub Repository</a>

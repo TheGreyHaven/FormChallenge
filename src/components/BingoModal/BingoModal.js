@@ -43,8 +43,8 @@ class BingoModal extends Component {
             first web-app, Mo'Bingo. Why don't you give it a try.
             </div>
             <div align="center">
-              <img className="bingoModalImg" src={bingoImg}></img>
-              <img className="bingoModalImg" src={bingoCard}></img>
+              <a href="http://mobingo.club/" target="_blank"><img className="bingoModalImg" src={bingoImg}></img></a>
+              <a href="http://mobingo.club/mobile/index.html" target="_blank"><img className="bingoModalImg" src={bingoCard}></img></a>
             </div>
             <div className="col-xs-12 col-sm-6 bingoLinkDiv" align="center">
               <a href="http://mobingo.club/" align="center" className="modalLinks" target="_blank">MoBingo.club</a>

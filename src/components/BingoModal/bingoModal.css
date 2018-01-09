@@ -29,3 +29,10 @@ a.modalLinks:hover {
 .projectDescription {
 	margin-bottom: 1.5%;
 }
+
+.bingoModalImg {
+	height: 300px;
+	margin: 10px;
+	margin-bottom: 30px;
+	border: 2px solid #dce897;
+}

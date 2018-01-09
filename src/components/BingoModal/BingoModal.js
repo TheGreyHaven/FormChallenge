@@ -3,6 +3,8 @@ import 'react-responsive-modal/lib/react-responsive-modal.css';
 import Modal from 'react-responsive-modal';
 import "./bingoModal.css";
 import mobingo from '../../images/mobingo350px.png';
+import bingoCard from '../../images/bingoCard.png';
+import bingoImg from '../../images/bingoImg.png';
 
 //the code for the bones of the modal is from https://www.npmjs.com/package/react-responsive-modal-irp
 //I did not write it. I customized it though.
@@ -39,6 +41,10 @@ class BingoModal extends Component {
             Eventually I created mobil friendly bingo cards to go with the number generator. In the end the code
             might not be what I'd write today but it's part of my journey to becoming a programmer and I will always feel proud of my
             first web-app, Mo'Bingo. Why don't you give it a try.
+            </div>
+            <div align="center">
+              <img className="bingoModalImg" src={bingoImg}></img>
+              <img className="bingoModalImg" src={bingoCard}></img>
             </div>
             <div className="col-xs-12 col-sm-6 bingoLinkDiv" align="center">
               <a href="http://mobingo.club/" align="center" className="modalLinks" target="_blank">MoBingo.club</a>

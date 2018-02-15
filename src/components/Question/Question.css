@@ -1,0 +1,44 @@
+.formDiv {
+	margin-bottom: 20px;
+	background-color: #52515e;
+	width: 600px;
+	padding: 20px 20px 20px 0px;
+	color: #fff;
+}
+
+.entireQuestionDiv {
+	border: 2px solid white
+}
+
+.deleteButton {
+	background-color: #fff;
+	color: #52515e;
+	font-size: 10px;
+}
+
+.questionDiv {
+	margin-top: 5px;
+	font-size: 15px;
+}
+
+.typeDiv {
+	font-size: 15px;
+}
+
+.questionSpan {
+	width: 500px;
+	height:30px;
+	margin-left: 10px;
+	/*border: 1px solid #888888;*/
+	font-size: 22px;
+	margin-bottom: 5px;
+}
+
+.typeSpan {
+	width: 500px;
+	height:30px;
+	margin-left: 10px;
+	/*border: 1px solid #888888;*/
+	font-size: 22px;
+	margin-bottom: 5px;
+}

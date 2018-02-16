@@ -64,7 +64,7 @@ handleMenuSelection(e) {
  render() {
    return (
      <div className="container">
-      <Navigation questions={this.state.items} types={this.state.selectMenuItem}/>
+      <Navigation state={{questions : this.state.items, types: this.state.selectMenuItem}}/>
        {this.state.showQuestion ? (
          <form className="questionForm" onSubmit={this.handleSubmit}>
            <Questions
@@ -80,9 +80,9 @@ handleMenuSelection(e) {
              <select className="dropDownButton"
              onChange={this.handleMenuSelection}
              >
-              <option value="Text">Text</option>
-              <option value="Yes/No">Yes/No</option>
-              <option value="Number">Number</option>
+              <option value="text">text</option>
+              <option value="yes/no">yes/no</option>
+              <option value="number">number</option>
              </select>
            </div>
            <button>Add Input</button>

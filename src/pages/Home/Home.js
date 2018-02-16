@@ -64,7 +64,7 @@ handleMenuSelection(e) {
  render() {
    return (
      <div className="container">
-      <Navigation />
+      <Navigation questions={this.state.items} types={this.state.selectMenuItem}/>
        {this.state.showQuestion ? (
          <form className="questionForm" onSubmit={this.handleSubmit}>
            <Questions

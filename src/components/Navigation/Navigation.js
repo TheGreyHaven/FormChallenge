@@ -3,8 +3,11 @@ import "./Navigation.css";
 import { NavLink } from 'react-router-dom'
 
 class Navigation extends Component {
-	render () {
 
+
+	render () {
+		const questions = this.props.questions;
+		const types = this.props.types;
 		return (
 			<div className="navigationBar">
 				<nav className="navbar navbar-default">
@@ -15,7 +18,7 @@ class Navigation extends Component {
 					    <div>
 					      <ul className="nav navbar-nav">
 					        <li><NavLink activeClassName="activeNav" to="/home" href="#">Constructor</NavLink></li>
-					        <li><NavLink activeClassName="activeNav" to="/preview" href="#">Preview</NavLink></li>
+					        <li><NavLink onClick={this.submitZipCode} activeClassName="activeNav" to="/preview" href="#">Preview</NavLink></li>
 					        <li><NavLink activeClassName="activeNav" to="/exporter" href="#">Export</NavLink></li>
 					      </ul>
 					    </div>

@@ -26,16 +26,16 @@ class App extends Component {
  // and then resets state to be blank and add our newItem to our items array
  handleSubmit(e) {
    e.preventDefault();
-   var text = this.state.text;
-   var menuItem = this.state.menuItem
-   var newMenuItem = this.state.selectMenuItem.concat(menuItem);
-   var newItems = this.state.items.concat(text);
+   const text = this.state.text;
+   const menuItem = this.state.menuItem
+   const newMenuItem = this.state.selectMenuItem.concat(menuItem);
+   const newItems = this.state.items.concat(text);
    this.setState({ text: "", items: newItems, showQuestion: true, menuItem: "", selectMenuItem: newMenuItem });
  }
 
  // this method resets state to equal the value of the input
  handleChange(e) {
-   var text = e.target.value;
+   const text = e.target.value;
    this.setState({ text: text });
  }
 
@@ -43,10 +43,10 @@ class App extends Component {
  //we need to find the item in state.items that needs to be deleted
  //we are dropping the itemToBeDeleted from the array and resetting state to be the new array w/out the item.
  handleDelete(otherItemToDelete, itemToBeDeleted) {
-   var newItems = this.state.items.filter(_item => {
+   const newItems = this.state.items.filter(_item => {
      return _item != itemToBeDeleted;
    });
-   var newMenuItem = this.state.selectMenuItem.filter(_menuItem => {
+   const newMenuItem = this.state.selectMenuItem.filter(_menuItem => {
     return _menuItem != otherItemToDelete;
    })
    this.setState({ items: newItems, selectMenuItem: newMenuItem});
@@ -57,7 +57,7 @@ class App extends Component {
  }
 
 handleMenuSelection(e) {
-   var menuItem = e.target.value;
+   const menuItem = e.target.value;
    this.setState({ menuItem: menuItem });
 }
 

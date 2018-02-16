@@ -1,0 +1,16 @@
+.activeNav {
+ 	color: #52515e !important;
+ 	background-color: #fff !important;
+
+ }
+
+ #navList {
+ 	margin-top: 40px;
+ 	border-bottom: 2px solid #fff;
+ }
+
+.pageLinks a:visited, .pageLinks a:hover, .pageLinks a:link {
+	color: #fff;
+	padding: 3px 5px 0px 5px;
+	border: 2px solid #fff;
+}

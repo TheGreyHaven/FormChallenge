@@ -1,13 +1,11 @@
 .jsonString{
 	color: #fff;
-	border: 2px solid #fff;
+	padding: 20px;
+
 }
 
-#exportContainerDiv {
-	position: relative;
-}
 
 #divToCenter {
-	position: absolute;
-	left: 60px;
+	border: 2px solid #fff;
+
 }

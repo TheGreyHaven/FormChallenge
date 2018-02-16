@@ -21,6 +21,7 @@ button {
 	box-shadow: 2px 2px #888888;
 	color: #52515e;
 	font-family: 'Spectral SC', serif;
+	margin-left: 16px;
 }
 
 #questionInputDiv {
@@ -28,6 +29,7 @@ button {
 	padding: 20px;
 	margin-bottom: 20px;
 	background-color: #fff;
+	margin-left: 16px;
 }
 
 select {
@@ -59,11 +61,7 @@ select {
 	margin-bottom: 5px;
 	box-shadow: 3px 4px #888888;
 }
- .activeNav {
- 	color: #555 !important;
- 	background-color: #e7e7e7 !important;
 
- }
 
 
 

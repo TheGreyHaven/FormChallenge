@@ -12,14 +12,12 @@ class Navigation extends Component {
 			<div className="navigationBar">
 				<nav className="navbar navbar-default">
 		  			<div className="container-fluid">
-		    			<div className="navbar-header">
-		      				<a className="navbar-brand" href="#">Form Builder</a>
-					    </div>
-					    <div>
+		  			<h1>Form Builder</h1>
+					    <div className="row" id="navList" align="center">
 					      <ul className="nav navbar-nav">
-					        <li><NavLink activeClassName="activeNav" to="/home" href="#">Constructor</NavLink></li>
-					        <li><NavLink activeClassName="activeNav" to={{ pathname: '/preview', state: { homeState: this.props.state } }}  href="#">Preview</NavLink></li>
-					        <li><NavLink activeClassName="activeNav" to={{ pathname: '/exporter', state: { homeState: this.props.state } }} href="#">Export</NavLink></li>
+					        <li className="col-sm-4 pageLinks" align="center"><NavLink activeClassName="activeNav" to="/home" href="#">Create</NavLink></li>
+					        <li className="col-sm-4 pageLinks" align="center"><NavLink activeClassName="activeNav" to={{ pathname: '/preview', state: { homeState: this.props.state } }}  href="#">Preview</NavLink></li>
+					        <li className="col-sm-4 pageLinks" align="center"><NavLink activeClassName="activeNav" to={{ pathname: '/exporter', state: { homeState: this.props.state } }} href="#">Export</NavLink></li>
 					      </ul>
 					    </div>
 					</div>

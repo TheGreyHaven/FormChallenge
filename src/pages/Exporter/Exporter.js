@@ -19,7 +19,7 @@ class Exporter extends Component {
 
 	render(){
 		return (
-			<div>
+			<div className="container">
 				<Navigation />
 				<div className="container" id="exportContainerDiv">
 					<div id="divToCenter" align="center">

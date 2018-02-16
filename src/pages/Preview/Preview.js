@@ -15,7 +15,7 @@ class Preview extends Component {
 	render(){
 
 		return (
-			<div>
+			<div className="container">
 				<Navigation  />
 				<div className="container">
 					<div className="previewQuestions">
